@@ -207,7 +207,7 @@ img {
     position: relative;
     z-index: 2;
     text-align: center;
-    color: var(--white);
+    color: var(--dark);
     padding: 2rem;
 }
 
