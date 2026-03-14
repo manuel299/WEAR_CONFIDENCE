@@ -187,8 +187,8 @@ img {
     position: absolute;
     inset: 0;
     background: 
-        linear-gradient(135deg, rgba(139, 69, 19, 0.95), rgba(212, 175, 55, 0.85)),
-        url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect fill="%238B4513" width="1200" height="800"/></svg>');
+        linear-gradient(135deg, rgba(139, 69, 19, 0.95), rgba(212, 175, 55, 0.85));
+        background-image: url(./look-up.jpg);
     background-size: cover;
     background-position: center;
     animation: zoomIn 20s ease infinite alternate;
@@ -234,6 +234,7 @@ img {
 .hero-title span {
     color: var(--gold);
     display: block;
+    
 }
 
 .hero-description {
@@ -848,11 +849,23 @@ img {
         box-shadow: 0 10px 30px rgba(0,0,0,0.1);
         gap: 1.5rem;
     }
+/* 
+    .hero-title {
+    font-family: var(--font-heading);
+    font-size: clamp(4rem, 12vw, 8rem);
+    font-weight: 700;
+    line-height: 0.9;
+    margin-bottom: 1.5rem;
+    opacity: 0;
+    animation: fadeInUp 1s ease 0.4s forwards;
+} */
 
-    /* .collection-grid{
-       width: 100%;
-       max-width: 100%;
-    } */
+.hero-title span {
+    color: var(--gold);
+    display: block;
+    font-size: 58px;
+}
+
 
     .card-image{
         height: 600px;
