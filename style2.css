@@ -914,7 +914,7 @@ img {
 }
 
 .shop-section {
-    padding: rem 2rem;
+    padding: 6rem 5px;
     background: var(--light);
 }
 
@@ -943,7 +943,7 @@ img {
 }
 
 .product-image {
-    height: 400px;
+    height: px;
     /* background: linear-gradient(135deg, var(--primary) 0%, var(--gold) 100%); */
     position: relative;
 }
@@ -1007,10 +1007,16 @@ img {
     border-top: 1px solid #eee;
 }
 
+.price {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--gold);
+}
+
 .btn-order {
     background: var(--primary);
     color: var(--white);
-    padding: 0.9rem 1.5rem;
+    padding: 0.6rem 1.5rem;
     border-radius: 30px;
     text-decoration: none;
     font-weight: 600;
@@ -1053,7 +1059,7 @@ img {
 }
 
 .contact-section {
-    padding: 6rem 2rem;
+    padding: 0.9rem ;
     background: var(--light);
 }
 
