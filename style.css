@@ -188,7 +188,7 @@ img {
     inset: 0;
     background: 
         linear-gradient(135deg, rgba(139, 69, 19, 0.95), rgba(212, 175, 55, 0.85));
-        background-image: url(./look-up.jpg);
+        background-image: url(./main-logo.jpg);
     background-size: cover;
     background-position: center;
     animation: zoomIn 20s ease infinite alternate;
@@ -207,7 +207,7 @@ img {
     position: relative;
     z-index: 2;
     text-align: center;
-    color: var(--dark);
+    color: var(--);
     padding: 2rem;
 }
 
