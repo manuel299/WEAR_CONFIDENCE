@@ -478,7 +478,7 @@ img {
 
 .card-image {
     position: relative;
-    height: 600px;
+    height: 500px;
     background: linear-gradient(135deg, var() 0%, var(--gold) 100%);
     overflow: hidden;
 }
@@ -705,9 +705,12 @@ img {
 /* ===== CTA SECTION ===== */
 .cta {
     padding: 6rem 2rem;
-    background: linear-gradient(135deg, var(--primary) 0%, var(--gold) 100%);
+    background-image: url(./look-up.jpg);
+    background-size: cover;
+    background-position: center;
+    /* background: linear-gradient(135deg, var(--primary) 0%, var(--gold) 100%); */
     text-align: center;
-    color: var(--white);
+    color: var(--);
 }
 
 .cta h2 {
